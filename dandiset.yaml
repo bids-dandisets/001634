@@ -23,9 +23,15 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: behavioral technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 6019885815
-  numberOfFiles: 11819
-  numberOfSubjects: 8
+  - name: signal filtering technique
+    schemaKey: MeasurementTechniqueType
+  - name: multi electrode extracellular electrophysiology recording technique
+    schemaKey: MeasurementTechniqueType
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 22929967079
+  numberOfFiles: 15423
+  numberOfSubjects: 9
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10116
@@ -36,6 +42,11 @@ assetsSummary:
   - ElectrodeGroup
   - SpatialSeries
   - CompassDirection
+  - Position
+  - BehavioralTimeSeries
+  - ElectricalSeries
+  - ProcessingModule
+  - LFP
 citation: Bray, Samuel (2025) Disruption of theta-timescale spiking impairs learning
   but spares hippocampal replay (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001634/draft
 contributor:
