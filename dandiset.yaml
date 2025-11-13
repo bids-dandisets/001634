@@ -10,6 +10,8 @@ assetsSummary:
   approach:
   - name: electrophysiological approach
     schemaKey: ApproachType
+  - name: behavioral approach
+    schemaKey: ApproachType
   dataStandard:
   - identifier: RRID:SCR_015242
     name: Neurodata Without Borders (NWB)
@@ -17,9 +19,13 @@ assetsSummary:
   measurementTechnique:
   - name: spike sorting technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 1344923221
-  numberOfFiles: 3620
-  numberOfSubjects: 5
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  - name: behavioral technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 6019885815
+  numberOfFiles: 11819
+  numberOfSubjects: 8
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10116
@@ -27,6 +33,9 @@ assetsSummary:
     schemaKey: SpeciesType
   variableMeasured:
   - Units
+  - ElectrodeGroup
+  - SpatialSeries
+  - CompassDirection
 citation: Bray, Samuel (2025) Disruption of theta-timescale spiking impairs learning
   but spares hippocampal replay (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001634/draft
 contributor:
